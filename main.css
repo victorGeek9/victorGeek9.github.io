@@ -140,11 +140,9 @@ menu a.mn{
     text-decoration: none;
 }
 menu a.mn:hover{
-    background-color: #BC1B1B;
+    background-color: #FFFDFD;
     border-radius: 20px;
-}
-menu a.mn:hover hr{
-    border-top:5px solid rgba(188, 27, 27, 0.9);
+    color:#BC1B1B;
 }
 hr.line{
     border:0;
