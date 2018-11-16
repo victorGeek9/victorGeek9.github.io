@@ -160,6 +160,9 @@ hr.line[value = "2"]{
 hr.line[value = "3"]{
     margin-left: 50px;
 }
+.information{
+    color: white;
+}
 .content{
     width: 820px;
     float:left;
