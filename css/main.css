@@ -1245,7 +1245,7 @@ nav{
 
 .box-modal {
     position: relative;
-    max-width: 412px;
+    width: 412px;
     padding: 50px 52px 53px;
     background: #fff;
     color: #000;
