@@ -1,0 +1,226 @@
+body{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: Arial, san-serif;
+	display: block;
+	color: #272c2f;
+}
+a{
+	text-decoration: none; 
+	color: #fff;
+}
+ul, li{
+	margin: 0;
+	padding: 0;
+	display: inherit;
+}
+li{
+	list-style-type: none;
+}
+p, h1, h2, h3, h4, h5, h6{
+	margin: 0;
+	padding: 0;
+}
+.navigator{
+	font-size: 18px; 
+	background: #455991;
+}
+.container{
+	width: 960px;
+	margin: 0 auto;
+}
+.navigator .container{
+	letter-spacing: 0.02em;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 34px 0px 43px 0px;
+	color: #fff;
+}
+.logo{
+	text-transform: uppercase;
+}
+.menu{
+	font-size: 15px;
+}	
+.menu li{
+	margin-right: 26px;
+}
+.menu li a{
+	border-bottom: 1px solid #fff;
+}
+.menu .contacts{
+	margin: 0px;
+}
+.offer .container{
+	padding:63px 0px 63px; 
+}
+h1{
+	text-transform: uppercase;
+	font-size: 23px;
+	margin-bottom: 23px;
+}
+.offer .container{
+	line-height: 20px;
+	margin-bottom: 49px;
+}
+.paragraf{
+	width: 335px;
+	color: #828899;
+	font-size:14px;
+	margin-bottom: 42px;
+}
+.textCards{
+	display: flex;
+	justify-content: space-between;
+}
+.textCards li{
+	display: block;
+	border: 1px solid #d6d6d6;
+}
+.firstCard, .secondCard{
+	line-height: 20px;
+	box-sizing: border-box;
+	height: 222px;
+	width: 308px;
+	padding: 29px;
+}
+.secondCard{
+	border: none;
+	border-radius: 20px;
+	box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+ .thirthCard{
+ 	line-height: 20px;
+ 	box-sizing: border-box;
+	height: 250px;
+	width: 308px;
+	padding: 29px;
+ }
+.textCards h3{
+	font-size: 17px;
+	margin-bottom: 18px; 
+}
+.cardsPararafs{
+	font-size: 15px;
+}
+.thirthCard a{
+	color: #22a2ec;
+	font-size: 15px;
+}
+.thirthCard .cardsPararafs{
+	margin-bottom: 16px;
+} 
+.secondSection .container{
+	padding-bottom: 63px;
+	display: flex;
+	justify-content: space-between;
+}
+.form{
+	box-sizing: border-box;
+	display: block;
+}
+.form input{
+	box-sizing: border-box;
+	display: inherit;
+	height: 46px;
+	width: 239px;
+	border: 1px solid #d6d6d6;
+	margin-bottom: 12px;
+	padding: 14px 21px;
+}
+h2{
+	font-size: 19px;
+	text-transform: uppercase;
+	margin-bottom: 40px;
+}
+.form .textField{
+	box-sizing: border-box;
+	padding: 14px 21px;
+	display: inherit;
+	width: 359px;
+	height: 124px;
+	border: 1px solid #d6d6d6;
+	margin-bottom: 24px;
+}
+::placeholder{
+	color: #d6d6d6;
+	font-size: 15px;
+}
+.submit{
+	box-sizing: border-box;
+	display: block;
+	height: 43px;
+	width: 166px;
+	background: #ebce0d;
+	border: none;
+	font-size: 15px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.form p{
+	font-size: 12px;
+	color: #84898d;
+}
+.card{
+	display: inherit;
+	box-sizing: border-box;
+	padding: 43px 54px 41px 43px;
+	width: 546px;
+	height: 456px;
+	background: #184c6b;
+	color:#c0ddee;
+	border-radius: 8px;
+}
+.leftSide{
+	margin-right: 37px;
+}
+.leftSide h3{
+	font-size: 17px;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+.leftSide p{
+	line-height: 20px;
+	margin-bottom: 23px;
+}
+.rightSide p{
+	line-height: 20px;
+	margin-top: 40px;
+}
+.footer{
+	background: #455991;
+}
+.footer .container{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	box-sizing: border-box;
+	font-size: 12px;
+	color: #fff;
+	padding: 31px 0px;
+}
+
+.footer .container p, .footer .container a{
+	display: inline;
+}
+.buttonFirst, .buttonSecond{
+	font-weight: bold;
+	border: 1px solid #fff;
+	border-radius: 5px;
+	padding: 12px 19px;
+}
+.buttonSecond{
+	border-radius: 3px;
+}
+.buttonSecond{
+	border-radius: 20px;
+}
+.paragrafWhite{
+	padding: 13px 23px;
+	color: #455991;
+	background: #fff;
+	border-radius: 5px;
+	text-align: center;
+}

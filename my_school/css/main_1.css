@@ -1,0 +1,462 @@
+body{
+	font-family: 'Roboto', sans-serif;
+	margin: 0px;
+	padding: 0px;
+	font-size: 14px;
+	line-height: 1.2em;
+	display: block;
+	letter-spacing: 0.02em;
+
+}
+p, a, h1, h2, h3, h4, h5, h6{
+	margin: 0px;
+	padding: 0px;
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+ul, li{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+input, button{
+	border: none;
+}
+.container{
+	margin: 0px auto;
+	width: 1140px;
+}
+.header{
+	padding-top: 16px;
+}
+.d-flex{
+	display: flex;
+}
+.jus-cont-sb{
+	justify-content: space-between;
+}
+.nav{
+	padding-right: 1px;
+	padding-bottom: 23px;
+	align-items: center;
+}
+
+.logo__plug{
+	display: inherit;
+	box-sizing: border-box;
+	height: 49px;
+	width: 49px;
+	background: #1b3bde;
+	border-radius: 5px; 
+	justify-content: center;
+	align-items: center;
+}
+.fa-plug{
+	color: #fff;
+	font-size: 25px;
+}
+.logo__paragraph{
+	margin: 5px 0px 6px 12px;
+	display: block;
+}
+.logo__mySchool{
+	display: inherit;
+	color: #1b3bde;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 0.05em;
+}
+.logo__mySchool_pm{
+	margin-top: 5px;
+	font-size: 20px;
+	letter-spacing: 0.015em;
+}
+.menu{
+	letter-spacing: 0.02em;
+	padding: 6px 0 0 108px;
+	font-size: 13px;
+	color: #000;
+}
+.menu__items{
+	margin-right: 39px;
+}
+.menu__items:last-child{
+	margin-right: 0px;
+}
+.menu__items a:hover, .menu__items a:active{
+	background: #000;
+	color: #fff;
+	border-radius: 5px;
+	padding: 8px 20px 9px;
+	margin: 0 -20px;
+}
+.number{
+	font-family: Myriad, sans-serif;
+	margin-top: 4px;
+	margin-left: auto;
+	font-weight: 700;
+	font-size: 15px;
+	align-items: center;
+	letter-spacing: 0.05em;
+}
+.fa-phone{
+	margin-right: 5px;
+}
+.profi{
+	box-shadow: 0 -5px 10px rgb(212,219,218,0.5);
+	background: #f0f7f8 url(../img/background.png) center top no-repeat /cover;
+	padding: 89px 0px 135px;
+}
+.masterClass__online{
+	letter-spacing: 0.02em;
+	margin-left: 245px;
+	font-size: 16px;
+	line-height: 1.2em;
+	align-items: center;
+}.masterClass{
+	margin-top: 107px;
+}
+.masterClass__webDeveloper{
+	font-weight: 900;
+	line-height: 1.2em;
+	margin: 23px 0px 26px 55px;
+	letter-spacing: 0.03em;
+	font-size: 45px;
+	line-height: 1.2em;	
+	color: #1b3bde;
+	width: 560px;
+	text-align: center;
+	line-height: 
+}
+.masterClass__when{
+	font-family: 'Roboto', sans-serif;
+	margin-left: 267px;
+	box-sizing: border-box;
+	background: #000;
+	color: #fff;
+	border-radius: 3px;
+	width: 148px;
+	height: 28px;
+	align-items: center;
+	justify-content: center;
+}
+.form{
+	color: #000;
+	margin-left: 118px;
+	box-shadow: 0 0 90px rgb(0,0,0,0.3);
+	box-sizing: border-box;
+	background: #fff;
+	border-radius: 5px;
+	padding: 37px 29px 37px 34px;
+}
+input:focus, input:active{
+	outline:none;
+	color: #222222;
+	border-bottom: 1px solid #222222;
+}
+input:focus::placeholder, input:active::placeholder{
+	color: #222222;
+}
+.form__offer{
+	letter-spacing: 0.025em;
+	font-weight: bold;
+	font-size: 17px;
+	margin: 0px 0px 15px 36px;
+}
+
+.form__reason{
+	margin-left: -2px;
+	letter-spacing: 0.03em;
+	width: 275px;
+	text-align: center;
+	margin-bottom: 32px;
+	line-height: 1.5em;
+}
+.form__item{
+	width: 270px;
+	letter-spacing: 0.03em;
+	margin-bottom: 22px;
+	padding-bottom: 10px; 
+	display: block;
+	font-size: 13px;
+	color: #acacac;
+	border-bottom: 1px solid #acacac;
+}
+.form__item_last{
+	margin-top: 25px;
+}
+.submit{
+	width: 268px;
+	color: #fff;
+	font-size: 16px;
+	padding: 13px 64px 16px;
+	border-radius: 5px;
+	background: #4acc4d;
+	margin-bottom: 15px; 
+	margin-left: 5px;
+	line-height: 1.7em;
+	letter-spacing: 0.03em;
+	font-weight: bold;
+	outline: none;
+}
+button:focus,button:hover{
+	outline: none;
+	cursor: pointer;
+}
+.form__copy{
+	font-size: 12px;
+	color: #acacac;
+	margin-left: 50px;
+}
+.doYouKnow{
+	padding: 121px 0px 123px;
+}
+
+.host{
+	letter-spacing: 0.03em;
+	padding: 43px 81px 48px 55px;
+	color: #fff;
+	background: #9d6bdc;
+	border-radius: 5px;
+	margin-bottom: 60px;
+}
+.host__person{
+	font-size: 18px;
+	margin-bottom: 15px;
+	letter-spacing: 0.03em;
+	font-weight: 900;
+}
+.host__achievements span{
+	display: block;
+	font-size: 15px;
+	margin-bottom: 5px;
+}
+.host__achievements{
+	margin-bottom: 25px;
+}
+.host__practice{
+	margin-bottom: 24px;
+}
+.host__number{
+	margin-right: 15px;
+	font-weight: bold;
+	font-size: 39px;
+	line-height: 1em;
+}
+.host__paragraph{
+	margin: 3px 36px 0 0;
+	font-size: 13px;
+	width: 75px;
+}
+.host__paragraph_small{
+	width: 45px;
+}
+.host__learnMore{
+	color: #fff;
+	font-weight: bold;
+	margin-left: 2px;
+}
+.stats{
+	margin-top: 1px;
+	margin-left: 96px;
+}
+.stats__knowledges, .less__hm{
+	letter-spacing: 0.03em;	
+	font-size: 28px;
+	margin-bottom: 27px;
+	margin-top: 70px;
+}
+.stats__paragraph, .less__paragraph{
+	line-height: 1.5em;
+	letter-spacing: 0.025em;	
+	width: 470px;
+	font-size: 15px;
+}
+.stats__paragraph span{
+	font-weight: bold;
+}
+.less{
+	margin-left: 132px;
+	margin-top: 15px;
+}
+
+.less__hm{
+	margin-bottom: 26px;
+}
+.price{
+	box-shadow: 0 0 100px rgb(0,0,0,0.3);
+	width: 469px;
+	height: 265px;
+	border-radius: 5px;
+	background: #f6e23a;
+	align-items: center;
+	justify-content: center;
+	margin-left: 70px;
+	margin-top: 4px;
+}
+.price__month span{
+	display: block;
+	font-size: 43px;
+	font-weight: 900;
+	line-height: 1.12em;
+	margin-top: -4px;
+}
+.price__month{
+	font-size: 21px;
+	text-align: center;
+}
+.iWillShow{
+	letter-spacing: 0.05em;
+	padding: 99px 0 104px;
+	background: #f0f7f8 url(../img/background.png) center top no-repeat /cover;
+}
+.myKnowledges{
+	line-height: 1.3em;
+	font-size: 28px;
+	font-weight: bold;
+	letter-spacing: 0.04em;
+}
+.opportunity{
+	padding-top: 73px;	
+}
+.opportunity__block{
+	width: 82px;
+	height: 82px;
+	box-sizing: border-box;
+	background: #1b3bde;
+	font-size: 25px;
+	color: #fff;
+	font-weight: bold;
+	padding: 32px 31px 28px 33px;
+	border-radius: 5px;
+}
+.opportunity__text{
+	margin: 20px 0 0 34px;
+	line-height: 1.45em;
+}
+.opportunity__items_second{
+	margin-left: 80px;
+}
+.opportunity__items_thirth{
+	margin-left: 25px;
+}
+.opportunity__pros{
+	font-size: 19px;
+	color: #1b3bde;
+	font-weight: bold;
+	width: 225px;
+	margin-bottom: 15px;
+}
+.opportunity__paragraph{
+	letter-spacing: 0.03em;
+	font-size: 15px;
+	font-weight: bold;
+	width: 230px;
+	line-height: 1.5em;
+}
+.conditions{
+	padding: 96px 0 100px;
+}
+.ifYou{
+	margin-bottom: 74px;
+	font-weight: bold;
+	font-size:28px;
+}
+.if__item{
+	box-shadow: 0 0 100px rgb(0,0,0,0.2);
+	margin-right: 48px;
+	box-sizing: border-box;
+	width: 348px;
+	padding: 67px 0px;
+	border-radius: 5px;
+}
+.if__item:last-child{
+	margin-right: 0px;
+}
+.if__item_first{
+	background: #4acc4d;
+}
+.if__item_second{
+	box-shadow: 0 5px 40px rgb(0,0,0,0.4);
+	background: #4ac7cc;
+}
+.if__item_thirth{
+	background: #dc6b83;
+}
+.fa-flag, .fa-money-bill-alt, .fa-meh{
+	color: #fff;
+	font-size: 42px;
+	margin: 0 151px 20px;
+}
+.fa-money-bill-alt{
+	margin: 0 146px 20px;
+}
+.if__condition{
+	font-size: 19px;
+	color: #fff;
+	font-weight: bold;
+	text-align: center;
+	line-height: 1.1em;
+	letter-spacing: 0.03em;
+}
+.if__condition_first{
+	margin: 0 89px;
+}
+.if__condition_second{
+	margin: 0 47px;
+}
+.if__condition_thirth{
+	margin: 0 40px 0 42px;
+}
+.possibility{
+	padding: 104px 72px 104px 60px;
+	color: #fff;
+	background: #324fdf url(../img/background1.jpg) center top no-repeat /cover;
+}
+.unique{
+	margin-top: 105px;
+}
+.unique__online{
+	font-size: 16px;
+	letter-spacing: 0.03em;
+}
+.unique__online .fa-graduation-cap{
+	margin: 0 0 30px 270px;
+}
+.unique__possibility{
+	font-size: 28px;
+	font-weight: 900;	width: 590px;
+	line-height: 1.3em;
+	text-align: center;
+	margin: 5px 0 30px 75px;
+	letter-spacing: 0.02em;
+}
+.unique__when{
+	margin-left: 227px;
+	letter-spacing: 0.01em;
+	font-size: 16px;
+}
+.fa-clock, .fa-users{
+	margin-right: 3px;
+}
+.fa-users{
+	margin-left: 10px;
+}
+.form_second{
+	margin: 0 66px 0 0;
+	padding: 35px 29px 37px 30px;
+}
+.footer{
+	padding: 23px 0 24px;
+}
+.call{
+	align-items: center;
+}
+.copy{
+	font-size: 12px;
+	font-weight: bold;
+	margin: -3px 0 0 161px;
+	letter-spacing: 0.03em;
+}
