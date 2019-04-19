@@ -1245,7 +1245,7 @@ nav{
 
 .box-modal {
     position: relative;
-    width: 412px;
+    max-width: 412px;
     padding: 50px 52px 53px;
     background: #fff;
     color: #000;
@@ -1769,6 +1769,10 @@ nav{
 	.map__contact{
 		width: 190px;
 		margin: 0 0 30px 0;
+	}
+	.box-modal {
+	    max-width: 300px;
+	    padding: 50px 20px 53px;
 	}
 }
 @media screen and (max-width: 435px){
