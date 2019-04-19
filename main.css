@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css?family=Poor+Story');
+@import url('https://fonts.googleapis.com/css?family=Ultra');
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
+/*////////////////////////////////////////////////*/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+/*///////////////////////////////////////////*/
+@font-face {
+    font-family: Alegria; /* Имя шрифта */
+    src: url(ALGERIA.TTF); /* Путь к файлу со шрифтом */
+}
+body{
+    width: 1140px;
+    height: auto;
+    margin: 0px auto;
+    background-image: url("84.jpg");
+}
+header{
+    padding-top: 30px;
+    margin-top: 0px;
+    width: 320px;
+    height: 799px;
+    background-color: #333333;
+    float:left;
+}
+.forte1{
+    margin-left: 168px;
+    margin-bottom: 0px;
+    font-family: 'Ultra', serif;
+    color:#FFFDFD;
+    font-size: 30px;
+}
+.forte3{
+    margin-left: 135px;
+    font-family: 'Poor Story', cursive;
+    color:#FFFDFD;
+    font-size: 30px;
+}
+menu {
+    padding-top: 130px;
+    padding-left: 10px;
+}
+menu a.mn{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 30px;
+    color:#FFFDFD;
+    text-decoration: none;
+}
+menu a.mn:hover{
+    background-color: #FFFDFD;
+    border-radius: 20px;
+    color:#BC1B1B;
+}
+hr.line{
+    border:0;
+    border-top:1px solid rgba(255, 255, 255, 0.1);
+    margin:0;
+    margin-left: 20px;
+    height:1px;
+}
+hr.line[value = "1"]{
+    margin-left: 30px;
+}
+hr.line[value = "2"]{
+    margin-left: 40px;
+}
+hr.line[value = "3"]{
+    margin-left: 50px;
+}
+.information{
+    color: white;
+}
+.content{
+    width: 820px;
+    float:left;
+}
+.upper{
+    width: 820px;
+    float:left;
+    height: 242px;
+    background-color: white;
+}
+img.up{
+    height: 243px;
+    width: 820px;
+    filter: blur(3px);
+}
+.middle{
+    width: 817px;
+    height: 147px;
+    float:left;
+}
+.squared{
+    width: 817px;
+    height: 147px;
+    float:left;
+    background-color: white;
+    border: 1px solid black;
+    filter: blur(3px);
+    position: absolute;
+}
+.circle{
+    margin-top: 8.5px;
+    margin-left: 500px;
+    width: 130px;
+    height: 130px;
+    background-color: #BC1B1B;
+    border-radius: 50%;
+    position: relative;
+}
+.ended{
+    margin: 0;
+    padding: 0;
+    width: 820px;
+    float:left;
+    height: 437px;
+    background-color: white;
+}
+img.unde{
+    margin: 0;
+    padding: 0;
+    margin: :0;
+    width: 820px;
+    height: 436.5px;
+    opacity: 0.18;
+}
+.information{
+    margin-left: 35px;
+    margin-top: 330px;
+    font-family: 'Poor Story', cursive;
+    font-size: 23px;
+}
+
+.top{
+    padding-top: 15px;
+    margin-left: 66px;
+    position: relative;
+    font-size: 50px;
+    font-family: 'Alegria', cursive;
+}
+.top1{
+    font-size: 50px;
+    font-family: 'Alegria', cursive;
+    color: white;
+}
+.top2{
+    margin-top: -10px;
+    margin-left: 10px;
+    position: relative;
+    font-size: 30px;
+    font-family: 'Gloria Hallelujah', cursive;
+    color: white;
+}
+.top3{
+    margin-top: -7px;
+    margin-left: 123px;
+    position: relative;
+    font-size: 35px;
+    color:#000000;
+    font-family: 'Gloria Hallelujah', cursive;
+}
